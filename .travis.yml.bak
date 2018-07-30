@@ -6,7 +6,7 @@ install:
   - npm install hexo-cli -g
   - npm install
 script:
-  - chmod +x deploy.sh
+  - chmod +x ../deploy.sh
   - hexo clean
   - hexo g
   - ./deploy.sh > /dev/null

@@ -7,4 +7,4 @@ tags:
 
 用了一上午的时间用Travis-CI和Github实现了博客持续集成。
 
-实现方法见:(nfz的博客)[https://blog.nfz.moe/archives/hexo-auto-deploy-with-travis-ci.html]
+实现方法见: [nfz的博客](https://blog.nfz.moe/archives/hexo-auto-deploy-with-travis-ci.html)

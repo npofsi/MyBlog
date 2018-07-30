@@ -115,9 +115,9 @@ slider:
 #smart_menu:
 #  friends: false
 smart_menu:
-  innerArchive: '文章'
+  innerArchive: '所有文章'
   friends: '友链'
-  aboutme: '关于'
+  aboutme: '关于我'
 
 friends:
   JimmyTian: http://www.twznow.com/

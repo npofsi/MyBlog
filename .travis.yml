@@ -1,0 +1,15 @@
+language: node_js
+dist: trusty
+node_js:
+  - "7"
+install:
+  - npm install hexo-cli -g
+  - npm install
+script:
+  - chmod +x ../deploy.sh
+  - hexo clean
+  - hexo g
+  - ../deploy.sh > /dev/null
+branches:
+  only:
+    - raw

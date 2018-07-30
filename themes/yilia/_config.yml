@@ -64,7 +64,7 @@ top: true
 
 # Miscellaneous
 baidu_analytics: ''
-google_analytics: ''
+google_analytics: 'UA-120300100-1'
 favicon: https://avatars0.githubusercontent.com/u/21017995?s=460&v=4
 
 #你的头像url

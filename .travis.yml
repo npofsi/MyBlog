@@ -4,6 +4,7 @@ node_js:
   - "7"
 install:
   - npm install hexo-cli -g
+  - npm install hexo-generator-json-content --g
   - npm install
 script:
   - chmod +x deploy.sh

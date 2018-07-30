@@ -1,9 +1,6 @@
-#GitHubKEY = #上文生成的 GitHub Personal Access Token
-GitHubEMail = "npofsi@outlook.com" #你绑定在 GitHub 上的邮箱地址
-GitHubUser = "npofsi" #你的 GitHub 用户名
-GitHubRepo = "MyBlog" #静态页面 deploy 的目标仓库名称
 
 cd ./public # Hexo 生成的目录默认在 public 下
+echo "blog.npofsi.pro" > ./CNAME
 git init # 初始化一个 Repo
 git config --global push.default matching
 git config --global user.email "${GitHubEMail}"

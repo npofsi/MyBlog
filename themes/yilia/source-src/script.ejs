@@ -1,4 +1,4 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pangu/3.3.0/pangu.min.js"></script>
+
 <script>
 <% var left = '<%=' %>
 <% var right = '%' %>
@@ -9,7 +9,6 @@
 <% for (var chunk in htmlWebpackPlugin.files.chunks) { %><% if (chunk === 'main') { %><script src="<%= left %>config.root<%= right %><%= right2 %><%=htmlWebpackPlugin.files.chunks[chunk].entry %>"></script><% } %><% } %>
 <script>
 (function() {
-    pangu.spacingPage();
 	var loadScript = function(path) {
 	    var $script = document.createElement('script')
 	    document.getElementsByTagName('body')[0].appendChild($script)

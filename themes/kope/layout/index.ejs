@@ -1,0 +1,43 @@
+
+
+<div class="col-lg-3 col-sm-4 col-xs-12 order-1">
+
+
+            <%-partial('partials/bio-card')%>
+            <%-partial('partials/recent-posts-card')%>
+
+</div>
+<div class="col-lg-9 col-sm-8 col-xs-12 order-2">
+  <!-- <%-partial('partials/recent-posts')%> -->
+
+  <% page.posts.each(function(article) { %>
+
+  <div class="card col-12  text-<%=theme.content.text%> <%=theme.index.theme%> <%=theme.index.textlight?'text-light':''%>">
+    <div class="card-header <%=theme.index.theme%> md-3">
+      <%=article.date%>
+    </div>
+    <img src="<%=article.photo%>" class="card-img-top" alt="">
+    <div class="card-body">
+      <h4 class="card-title"><%=article.title%></h4>
+      <p class="card-text"><%-( article.excerpt || article.content )%></p>
+      <a href="<%=article.permalink%>" class="btn btn-<%=theme.index.more.outline?'outline-':''%><%=theme.index.more.theme%>"><%=theme.index.more.text%></a>
+    </div>
+  </div>
+    <br/>
+  <% } )%>
+
+  <nav aria-label="paginator">
+  <ul class="pagination justify-content-<%=theme.index.paginator%>">
+    <li class="page-item <%=(page.prev==0)?'disabled':''%>">
+      <a class="page-link" href="<%=page.current==2?config.url+config.root:page.prev_link%>" tabindex="-1">Previous</a>
+    </li>
+    <% for(var i=1;i<=page.total;i++){ %>
+      <li class="page-item  <%=( i+''==page.current )?'active':''%>"><a class="page-link" href="<%=i==1?config.url+config.root:config.url+config.root+'page/'+i%>"><%=i%></a></li>
+    <% } %>
+    <li class="page-item <%=(page.current==page.total)?'disabled':''%>">
+      <a class="page-link" href="<%=page.next_link%>">Next</a>
+    </li>
+  </ul>
+</nav>
+
+</div>

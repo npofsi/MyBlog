@@ -1,0 +1,18 @@
+<%
+var categoriesList = list_categories({ show_count: false }),
+  tagsList = list_tags({ show_count: true }),
+  archivesList = list_archives({ show_count: false });
+%>
+
+<h1></h1>
+<% if (tagsList) if (tagsList.length > 0) { %>
+<div class="card  <%=theme.tagcard.theme%>">
+  <div class="card-header <%=theme.tagcard.textlight?'text-light':''%> bg-<%=theme.tagcard.header%>">
+    Tags
+  </div>
+
+  <%- tagsList.replace(/tag-list/,"tag-list list-group list-group-flush").replace(/tag-list-item/g,"tag-list-item list-group-item "+theme.tagcard.itemth+" text-"+(theme.tagcard.textlight?'text-light':''))%>
+
+</div>
+<% } %>
+<br/>

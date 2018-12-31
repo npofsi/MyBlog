@@ -1,0 +1,66 @@
+
+<%
+var pageTitle = page.title || config.subtitle || '';
+if (is_archive()) pageTitle = 'Archives';
+if (is_tag()) pageTitle = 'Tag: ' + page.tag;
+if (is_category()) pageTitle = 'Category: ' + page.category;
+if (is_month()) pageTitle += ': ' + page.month + '/' + page.year;
+if (is_year()) pageTitle += ': ' + page.year;
+pageTitle += ' [ ' + config.title + ' ]';
+%>
+
+<!DOCTYPE html>
+<html lang="<%=config.language%>">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="<%=theme.favicon%>">
+  <title><%=pageTitle%></title>
+
+  <%-partial('partials/cdn-styles')%>
+
+  <% if (theme.stylesheets !== undefined && theme.stylesheets.length > 0) { %>
+    <!-- stylesheets list from config.yml -->
+    <% theme.stylesheets.forEach(function(url) { %>
+      <link rel="stylesheet" href="<%=url%>">
+    <% }); %>
+  <% } %>
+</head>
+<body>
+<header>
+  <%-partial('partials/navbar')%>
+</header>
+
+<br/>
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col-lg-3 col-sm-4 col-xs-12 order-3">
+          <!-- <%-partial('partials/recent-posts-card')%> -->
+
+        </div>
+
+
+
+        <%- body %>
+      </div>
+    </div>
+    <br/>
+<footer class="">
+  <nav class="text-center">
+    <%-partial('partials/footer')%>
+  </nav>
+</footer>
+
+<% if (theme.scripts !== undefined && theme.scripts.length > 0) { %>
+  <!-- scripts list from theme config.yml -->
+  <% theme.scripts.forEach(function(url) { %>
+    <script src="<%=url%>"></script>
+  <% }); %>
+<% } %>
+
+  <%-partial('partials/cdn-scripts')%>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+
+# html lang
+language: en
+
+
+#Nav menu
+menu:
+  # only dark or light
+  nav: dark
+  bg: dark
+  slots:
+    - Home
+    - Category
+    - Archives
+  paths:
+    - /
+    - /category
+    - /archives
+  colors:
+    - ED1C24
+    - 29ABE2
+    - FBB03B
+  search:
+    btn:
+      theme: warning
+      outline: true
+
+content:
+  textlight: false
+  theme: border-dark
+  text: left
+
+#Index in index.html
+index:
+  textlight: false
+  theme: bg-light
+  #start,center,end
+  paginator: start
+  more:
+    text: more>>
+    theme: warning
+    outline: true
+
+#Biocard
+biocard:
+  avatar: https://avatars1.githubusercontent.com/u/21017995?s=400&u=e440d9bc226c69c15e242d20b5984a550bfce51f&v=4
+  title: NPofSi
+  bio: 欢迎来到铃奈庵!
+  textlight: false
+  theme: border-warning
+  itemlight: false
+  itemth: bg-lightx
+  settings:
+    items: true
+    links: true
+  items:
+    Github: https://github.com/npofsi
+    Twitter: https://twitter.com/npofsi
+  links:
+    TWZnow: http://twznow.com
+
+
+#TagsCard
+tagcard:
+  textlight: false
+  theme: border-dark
+  itemlight: false
+  itemth: border-warning
+  header: 'light btn-outline-warning'
+
+#RecentPostCard
+rpcard:
+  textlight: false
+  theme: border-dark
+  itemlight: false
+  itemth: border-warning
+  header: 'light btn-outline-warning'
+
+# Miscelaneous
+favicon: https://avatars1.githubusercontent.com/u/21017995?s=400&u=e440d9bc226c69c15e242d20b5984a550bfce51f&v=4
+
+# Github and Gitment
+github:
+  username: username
+  email: email
+  gitment:
+    enable: false
+    owner: github-id      #你的 GitHub ID
+    repo: github-repo        #存储评论的 repo
+    oauth:
+      client_id: cilentid           #client ID
+      client_secret: clientsecret #client Secret
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/kope.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/kope.js

@@ -1,0 +1,30 @@
+
+<div class="col-lg-9 col-sm-8 col-xs-12 text-<%=theme.content.text%>">
+<br/>
+
+
+  <h1><%=page.title%></h1>
+
+
+
+</div>
+<div class="container-fluid row col-xs-12">
+
+  <div class="col-lg-9 col-sm-8 col-xs-12 text-<%=theme.content.text%>">
+  <div class="card <%=theme.content.theme%> <%=theme.content.textlight?'text-light':''%>">
+    <div class="card-header <%=theme.index.theme%> md-3">
+        <%=page.date%>
+    </div>
+    <div class="card-body" style="min-height:20rem">
+      <article id="post" class="card-text">
+        <%-page.content%>
+      </article>
+
+    </div>
+  </div>
+  <% if(theme.github.gitment.enable){ %>
+  <div id="comments">
+  </div>
+  <% } %>
+
+</div>

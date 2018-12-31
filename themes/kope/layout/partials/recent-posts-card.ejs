@@ -1,0 +1,15 @@
+
+
+<% if (page.posts) if (page.posts.length > 0) { %>
+<div class="card  <%=theme.rpcard.theme%>">
+  <div class="card-header <%=theme.rpcard.textlight?'text-light':''%> bg-<%=theme.rpcard.header%>">
+    Recent
+  </div>
+  <ul class="list-group list-group-flush">
+  <% page.posts.sort('date', -1).limit(5).each(function(post) { %>
+    <li class="list-group-item <%=theme.rpcard.itemth%> "> <a href="<%=config.root + post.path%>" class="list-group-item-action  <%=theme.rpcard.itemth%> <%=theme.rpcard.itemlight?'text-light':''%> " ><%=post.title%></a></li>
+  <% }); %>
+  </ul>
+</div>
+<% } %>
+<br/>

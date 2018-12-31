@@ -1,0 +1,22 @@
+<div class="card <%=theme.biocard.theme%>  <%=theme.biocard.textlight?'text-light':''%>">
+  <img class="card-img-top" src="<%=theme.biocard.avatar%> cap" alt="Avatar">
+  <div class="card-body">
+    <h5 class="card-title"><%=theme.biocard.title%></h5>
+    <p class="card-text "><%=theme.biocard.bio%></p>
+  </div>
+  <% if(theme.biocard.settings.items){ %>
+  <ul class="list-group list-group-flush">
+    <% Object.keys(theme.biocard.items).forEach(function(key){ %>
+      <a href="<%=theme.biocard.items[key]%>"><li class="list-group-item list-group-item-action <%=theme.biocard.itemlight?'text-light':''%>  <%=theme.biocard.itemth%>"><%=key%></li></a>
+    <% }) %>
+  </ul>
+  <% } %>
+  <% if(theme.biocard.settings.links){ %>
+  <div class="card-body">
+    <% Object.keys(theme.biocard.links).forEach(function(key){ %>
+      <a href="<%=theme.biocard.links[key]%>" class="card-link"><%=key%></a>
+    <% }) %>
+  </div>
+  <% } %>
+</div>
+<br/>

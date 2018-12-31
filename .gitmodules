@@ -1,0 +1,3 @@
+[submodule "themes/kope"]
+	path = themes/kope
+	url = https://github.com/npofsi/hexo-theme-kope

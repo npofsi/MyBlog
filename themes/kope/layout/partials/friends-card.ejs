@@ -1,0 +1,13 @@
+<% if (theme.friends) if (Object.keys(theme.friends).length > 0) { %>
+<div class="card  <%=theme.rpcard.theme%>">
+  <div class="card-header <%=theme.rpcard.textlight?'text-light':''%> bg-<%=theme.rpcard.header%>">
+    Friends
+  </div>
+  <ul class="list-group list-group-flush">
+  <% (Object.keys(theme.friends)).forEach(function(friend) { %>
+    <li class="list-group-item <%=theme.rpcard.itemth%> "> <a href="<%=theme.friends[friend]%>" class="list-group-item-action  <%=theme.rpcard.itemth%> <%=theme.rpcard.itemlight?'text-light':''%> " ><%=friend%></a></li>
+  <% }); %>
+  </ul>
+</div>
+<% } %>
+<br/>

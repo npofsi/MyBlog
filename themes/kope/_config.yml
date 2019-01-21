@@ -91,6 +91,13 @@ github:
       client_id: cilentid           #client ID
       client_secret: clientsecret #client Secret
 
+friends:
+  JimmyTian: http://www.twznow.com/
+  Hiiragi: http://blog.hiirachan.moe/
+  Lakphy: http://lakphy.github.io/
+  慕晓社: http://www.swiss126.icoc.cc/
+
+
 # stylesheets loaded in the <head>
 stylesheets:
 - /css/kope.css

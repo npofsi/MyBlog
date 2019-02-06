@@ -77,7 +77,7 @@ rpcard:
   header: 'light btn-outline-warning'
 
 # Miscelaneous
-favicon: https://avatars1.githubusercontent.com/u/21017995?s=400&u=e440d9bc226c69c15e242d20b5984a550bfce51f&v=4
+favicon: /favicon.ico
 
 # Github and Gitment
 github:

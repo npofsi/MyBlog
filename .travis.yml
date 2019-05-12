@@ -10,7 +10,7 @@ install:
   - cd node_modules/hexo-renderer-markdown-it/
   - npm install markdown-it-checkbox --save
   - cd ../../
-#  - npm install
+  - npm install
 script:
   - chmod +x deploy.sh
   - hexo clean

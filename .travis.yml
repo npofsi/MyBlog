@@ -6,6 +6,8 @@ install:
   - npm install markdown-it -g
   - npm install hexo-cli -g
   - npm install hexo-generator-json-content --g
+  - npm un hexo-renderer-marked --save
+  - npm install hexo-renderer-markdown-it --save
   - npm install
 script:
   - chmod +x deploy.sh

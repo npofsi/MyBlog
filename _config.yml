@@ -76,8 +76,32 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: kope
 
-markdown: 'commonmark'
-
+#markdown: 'commonmark'
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+markdown:
+    render:
+        html: true # Doesn't escape HTML content so the tags will appear as html.
+        xhtmlOut: false # Parser will not produce XHTML compliant code.
+        breaks: true # Parser produces `<br>` tags every time there is a line break in the source document.
+        linkify: false # Returns text links as text.
+        typographer: true # Substitution of common typographical elements will take place.
+        quotes: '“”‘’' # "double" will be turned into “single”
+# 'single' will be turned into ‘single’
+    plugins:
+        + markdown-it-abbr
+        + markdown-it-checkbox # 本行启用了 checkbox 插件
+        + markdown-it-emoji # 如果你想在 md 中使用 emoji 表情的话，需要另外下载相关插件
+        + markdown-it-footnote
+        + markdown-it-ins
+        + markdown-it-sub
+        + markdown-it-sup
+    anchors:
+        level: 2 # Minimum level for ID creation. (Ex. h2 to h6)
+        collisionSuffix: 'v' # A suffix that is prepended to the number given if the ID is repeated.
+        permalink: true # If true, creates an anchor tag with a permalink besides the heading.
+        permalinkClass: header-anchor # Class used for the permalink anchor tag.
+        permalinkSymbol: ¶ # The symbol used to make the permalink.
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:

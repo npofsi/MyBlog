@@ -3,12 +3,13 @@ dist: trusty
 node_js:
   - "7"
 install:
-  - npm install markdown-it -g
   - npm install hexo-cli -g
   - npm install hexo-generator-json-content --g
   - npm un hexo-renderer-marked --save
   - npm install hexo-renderer-markdown-it --save
-  - npm install
+  - cd node_modules/hexo-renderer-markdown-it/
+  - npm install markdown-it-checkbox --save
+#  - npm install
 script:
   - chmod +x deploy.sh
   - hexo clean

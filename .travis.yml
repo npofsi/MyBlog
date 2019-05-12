@@ -9,6 +9,7 @@ install:
   - npm install hexo-renderer-markdown-it --save
   - cd node_modules/hexo-renderer-markdown-it/
   - npm install markdown-it-checkbox --save
+  - cd ../../
 #  - npm install
 script:
   - chmod +x deploy.sh

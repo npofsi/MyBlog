@@ -9,7 +9,7 @@ description: 铃奈庵，是人类村落的一个借书屋。 虽然说是借书
 keywords:
 author: npofsi
 language: zh-CN
-timezone: 8
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

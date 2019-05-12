@@ -81,15 +81,15 @@ favicon: /favicon.ico
 
 # Github and Gitment
 github:
-  username: username
-  email: email
+  username: npofsi
+  email: npofsi@outlook.com
   gitment:
-    enable: false
-    owner: github-id      #你的 GitHub ID
-    repo: github-repo        #存储评论的 repo
+    enable: true
+    owner: npofsi     #你的 GitHub ID
+    repo: BlogComments       #存储评论的 repo
     oauth:
-      client_id: cilentid           #client ID
-      client_secret: clientsecret #client Secret
+      client_id: 91f845c80e9c695b0f7d           #client ID
+      client_secret: 4f3b7efb72bf090eb67be2da75c572cf5fd44581 #client Secret
 
 friends:
   JimmyTian: http://www.twznow.com/

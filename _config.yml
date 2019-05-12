@@ -72,6 +72,8 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugins:
+    - 'markdown-it'
 ## Themes: https://hexo.io/themes/
 theme: kope
 

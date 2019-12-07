@@ -16,11 +16,6 @@
         <article id="post" class="card-text" >
           <%-page.content%>
         </article>
-        <script>
-          var src=document.getElementById('post').innerHTML;
-          var res=MarkdownIt({ html: true, linkify: true, typographer: true }).render(src);
-          document.getElementById('post').innerHTML=res;
-        </script>
       </div>
     </div>
 

@@ -5,10 +5,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.2/markdown-it.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script>pangu.spacingPage()</script>
 <script>
-    
+    $(function(){
+        $('.masonry-container').masonry({
+            itemSelector: '.item'
+        });
+     });
+</script>
+<script>pangu.spacingPage()</script>
+<script>  
     const gitalk = new Gitalk({
         clientID: '<%=theme.github.gitment.oauth.client_id%>',
         clientSecret: '<%=theme.github.gitment.oauth.client_secret%>',

@@ -76,27 +76,27 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: kope
 
-markdown: 'default'
+markdown: 'marked'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
 jsonContent:
-    meta: false
-    pages: false
+    meta: true
+    pages: true
     posts:
       title: true
       date: true
       path: true
-      text: false
-      raw: false
-      content: false
+      text: true
+      raw: true
+      content: true
       slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
+      updated: true
+      comments: true
+      link: true
+      permalink: true
+      excerpt: true
+      categories: true
       tags: true

@@ -5,7 +5,7 @@ node_js:
 install:
   - npm install hexo-cli -g
   - npm install hexo-generator-json-content --g
-  - npm install hexo-renderer-marked --save
+  - npm un hexo-renderer-marked 
   - npm install hexo-renderer-markdown-it --save
  # - cd node_modules/hexo-renderer-markdown-it/
  # - npm install markdown-it-checkbox --save

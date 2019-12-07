@@ -76,7 +76,7 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: kope
 
-markdown: 'markdown-it'
+markdown: 'commonmark'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

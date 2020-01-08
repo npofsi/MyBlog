@@ -9,9 +9,9 @@
 
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 <script>
-    $(function (){
-   $('.content-body').imagesLoaded(function(){
-            $('.content-body').masonry({
+    $(function(){
+        $('.masonry-container').imagesLoaded(function(){
+            $('.masonry-container').masonry({
                 itemSelector: '.item'
             });
         });

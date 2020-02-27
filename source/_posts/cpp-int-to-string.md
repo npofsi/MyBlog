@@ -1,6 +1,6 @@
 ﻿---
 title: 将数字转换成字符串
-date: 2018-09-9 15:23:21
+date: 2018-09-9 15:23:21 +0800 GMT
 tags:
 - CPP
 - NOIp
@@ -11,4 +11,3 @@ stringstream sst ;
 for(...) sst<<i ;
 string str = sst.str() ;
 ```
-

@@ -78,13 +78,13 @@ theme: kope
 
 # Markdown-it config
 # Docs: https://github.com/hexojs/hexo-renderer-markdown-it/wiki
-markdown:
-  highlight: 
-    enable: true
-    line_number: true
-    auto_detect: true
-    tab_replace: '  '
+markdown: 
   render:
+    highlight: 
+      enable: true
+      line_number: true
+      auto_detect: true
+      tab_replace: '  '
     html: true
     xhtmlOut: false
     breaks: true
@@ -102,7 +102,6 @@ markdown:
     - markdown-it-mark
     - markdown-it-regexp
     - markdown-it-task-checkbox
-    - markdown-it-hightlight
     - name: markdown-it-container
       options: success
     - name: markdown-it-container

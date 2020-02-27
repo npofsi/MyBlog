@@ -1,6 +1,8 @@
----
+﻿---
 title: 博客转移Github并使用Ci集成
 date: 2018-07-30 9:47:21
+categories:
+- Code
 tags:
  - 随笔
 ---

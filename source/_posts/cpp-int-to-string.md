@@ -1,6 +1,8 @@
 ﻿---
 title: 将数字转换成字符串
 date: 2018-09-9 15:23:21 +0800 GMT
+categories:
+- Code
 tags:
 - CPP
 - NOIp

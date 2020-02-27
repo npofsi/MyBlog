@@ -5,7 +5,7 @@ categories:
 - Game
 tags:
 - galgame
-- 评论
+- 随笔
 ---
 
 ![yuzusoft](http://www.yuzu-soft.com/images/common/logo.png)

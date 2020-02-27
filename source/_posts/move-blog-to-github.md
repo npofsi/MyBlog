@@ -4,7 +4,7 @@ date: 2018-07-30 9:47:21
 categories:
 - Code
 tags:
- - 随笔
+ - 小计
 ---
 
 用了一上午的时间用Travis-CI和Github实现了博客持续集成。

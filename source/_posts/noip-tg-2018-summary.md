@@ -6,6 +6,7 @@ categories:
 tags: 
 - NOIp
 - C++
+- 随笔
 ---
 
 在这个星期日，经历了长达两天的 NOIp 复试，是时候做个总结了( ；∀；) （ tcl ）<del>( 好像 noi.cn 出了点问题）</del>

@@ -102,7 +102,7 @@ markdown:
     - markdown-it-mark
     - markdown-it-regexp
     - markdown-it-task-checkbox
-    - markdown-it-hightlightjs
+    - markdown-it-hightlight
     - name: markdown-it-container
       options: success
     - name: markdown-it-container

@@ -83,7 +83,7 @@ markdown:
 				enable: true
 				line_number: true
 				auto_detect: true
-				tab_replace: "  "
+				tab_replace: '  '
   render:
     html: true
     xhtmlOut: false

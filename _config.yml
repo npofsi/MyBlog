@@ -79,6 +79,11 @@ theme: kope
 # Markdown-it config
 # Docs: https://github.com/hexojs/hexo-renderer-markdown-it/wiki
 markdown:
+		highlight: 
+				enable: true
+				line_number: true
+				auto_detect: true
+				tab_replace: "  "
   render:
     html: true
     xhtmlOut: false

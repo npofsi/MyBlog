@@ -8,7 +8,7 @@ tags:
 - 目标
 ---
 
-<img src="https://blog.npofsi.pro/imgbase/2019122901.jpeg" alt="疫情之前的笔记（自此再没到过学校）"/>
+{% asset_img 疫情前的照片 https://blog.npofsi.pro/imgbase/2019122901.jpeg 疫情之前的一次记录（自此再没到过学校） %}
 
 距离高考还有一百天了，有点不舍，两年半来的生活好像箭一般的飞过，只不过是三个月，就算对不起什么，也不能让高中的时光过得没有任何意义。
 

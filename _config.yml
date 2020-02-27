@@ -76,6 +76,15 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: kope
 
+feed: 
+  # Generate both atom and rss2 feeds 
+  type: 
+    - atom 
+    - rss2 
+  path: 
+    - atom.xml 
+    - rss2.xml
+
 # Markdown-it config
 # Docs: https://github.com/hexojs/hexo-renderer-markdown-it/wiki
 markdown: 

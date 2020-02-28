@@ -2,9 +2,9 @@
 title: 博客转移Github并使用Ci集成
 date: 2018-07-30 9:47:21
 categories:
-- Code
+- Summary
 tags:
- - 小计
+ - Code
 ---
 
 用了一上午的时间用Travis-CI和Github实现了博客持续集成。

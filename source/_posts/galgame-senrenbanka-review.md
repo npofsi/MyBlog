@@ -2,10 +2,10 @@
 title: 《千恋 * 万花》
 date: 2020-1-29 21:22:07
 categories:
-- Game
+- Review
 tags:
-- galgame
-- 随笔
+- Game
+- Stuff
 ---
 
 ![yuzusoft](http://www.yuzu-soft.com/images/common/logo.png)

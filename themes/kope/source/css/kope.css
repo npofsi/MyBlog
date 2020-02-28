@@ -125,3 +125,8 @@ div.danger:before {
 div.danger p {
     margin: 20px 0 20px 0 !important;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}

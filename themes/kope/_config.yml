@@ -54,10 +54,12 @@ biocard:
     items: true
     links: true
   items:
+    PlayDev: http://play.google.com/store/apps/dev?id=5856452462277796135
     Donate: https://blog.npofsi.pro/donate
   links:
     Github: https://github.com/npofsi
     Twitter: https://twitter.com/npofsi
+    Patreon: https://www.patreon.com/npofsi
     RSS: https://blog.npofsi.pro/atom.xml
 
 

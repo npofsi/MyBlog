@@ -27,7 +27,7 @@ menu:
 
 content:
   textlight: false
-  theme: border-dark
+  theme: border-warning
   text: left
 
 #Index in index.html

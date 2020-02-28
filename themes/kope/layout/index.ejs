@@ -14,8 +14,7 @@
     <div class="card-header <%=theme.index.theme%> md-3">
       <h3 class="card-title"><%=article.title%></h3>
       <%=article.date%>
-    </div>
-    <hr/>
+    </div> 
     <div class="card-body">
       <%-( article.excerpt || article.content )%>
       <% if(!( (article.excerpt==article.content) || (article.excerept=="") )){ %>

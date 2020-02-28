@@ -15,10 +15,9 @@
       <h3 class="card-title"><%=article.title%></h3>
       <%=article.date%>
     </div>
-    <img src="<%=article.photo%>" class="card-img-top" alt="">
+    <hr/>
     <div class="card-body">
-
-      <p class="card-text"><%-( article.excerpt || article.content )%></p>
+      <%-( article.excerpt || article.content )%>
       <% if(!( (article.excerpt==article.content) || (article.excerept=="") )){ %>
         <a href="<%=article.permalink%>" class="btn btn-<%=theme.index.more.outline?'outline-':''%><%=theme.index.more.theme%>"><%=theme.index.more.text%></a>
       <% } %>

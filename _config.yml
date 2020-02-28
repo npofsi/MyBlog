@@ -9,7 +9,7 @@ description: 铃奈庵，是人类村落的一个借书屋。 虽然说是借书
 keywords:
 author: npofsi
 language: zh-CN
-timezone: 
+timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -43,22 +43,22 @@ highlight:
   line_number: false
   auto_detect: false
   tab_replace: '  '
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 5
+  per_page: 8
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
 
-auto_category: 
+auto_category:
   enable: true
 
 # Date / Time format
@@ -79,18 +79,18 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: kope
 
-feed: 
-  # Generate both atom and rss2 feeds 
-  type: 
-    - atom 
-    - rss2 
-  path: 
-    - atom.xml 
+feed:
+  # Generate both atom and rss2 feeds
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
     - rss2.xml
 
 # Markdown-it config
 # Docs: https://github.com/hexojs/hexo-renderer-markdown-it/wiki
-markdown: 
+markdown:
   render:
     html: true
     xhtmlOut: false

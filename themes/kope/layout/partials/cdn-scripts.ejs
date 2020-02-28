@@ -8,6 +8,7 @@
 <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script id="dsq-count-scr" src="https://npofsi.disqus.com/count.js" async></script>
 <script>
     $(function(){
         $('.masonry-container').imagesLoaded(function(){
@@ -20,7 +21,7 @@
 
 </script>
 <script>pangu.spacingPage()</script>
-<script>  
+<script>
     const gitalk = new Gitalk({
         clientID: '<%=theme.github.gitment.oauth.client_id%>',
         clientSecret: '<%=theme.github.gitment.oauth.client_secret%>',
@@ -32,7 +33,7 @@
     })
 
     gitalk.render('comments')
-    
+
 </script>
 <script>hljs.initHighlightingOnLoad();</script>
 <script id="__bs_script__">//<![CDATA[

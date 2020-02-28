@@ -84,7 +84,7 @@ github:
   username: npofsi
   email: npofsi@outlook.com
   gitment:
-    enable: true
+    enable: false
     owner: npofsi     #你的 GitHub ID
     repo: BlogComments       #存储评论的 repo
     oauth:

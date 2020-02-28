@@ -12,11 +12,12 @@
 
   <div style="color: #495057;" class="card col-12  text-<%=theme.content.text%> <%=theme.index.theme%> <%=theme.index.textlight?'text-light':''%>">
     <div class="card-header <%=theme.index.theme%> md-3">
+      <h3 class="card-title"><%=article.title%></h3>
       <%=article.date%>
     </div>
     <img src="<%=article.photo%>" class="card-img-top" alt="">
     <div class="card-body">
-      <h4 class="card-title"><%=article.title%></h4>
+
       <p class="card-text"><%-( article.excerpt || article.content )%></p>
       <% if(!( (article.excerpt==article.content) || (article.excerept=="") )){ %>
         <a href="<%=article.permalink%>" class="btn btn-<%=theme.index.more.outline?'outline-':''%><%=theme.index.more.theme%>"><%=theme.index.more.text%></a>

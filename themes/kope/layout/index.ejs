@@ -18,7 +18,10 @@
     <div class="card-body">
       <h4 class="card-title"><%=article.title%></h4>
       <p class="card-text"><%-( article.excerpt || article.content )%></p>
-      <a href="<%=article.permalink%>" class="btn btn-<%=theme.index.more.outline?'outline-':''%><%=theme.index.more.theme%>"><%=theme.index.more.text%></a>
+      <% if(!( (article.excerpt==article.content) || (article.excerept=="") )){ %>
+        <a href="<%=article.permalink%>" class="btn btn-<%=theme.index.more.outline?'outline-':''%><%=theme.index.more.theme%>"><%=theme.index.more.text%></a>
+      <% } %>
+
     </div>
   </div>
     <br/>

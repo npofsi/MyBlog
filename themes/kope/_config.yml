@@ -54,7 +54,7 @@ biocard:
     items: true
     links: true
   items:
-    PlayDev: http://play.google.com/store/apps/dev?id=5856452462277796135
+    Google Play Developer: http://play.google.com/store/apps/dev?id=5856452462277796135
   links:
     Github: https://github.com/npofsi
     Twitter: https://twitter.com/npofsi

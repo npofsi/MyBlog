@@ -10,11 +10,12 @@ pageTitle += ' [ ' + config.title + ' ]';
 %>
 
 <!DOCTYPE html>
-<html lang="<%=config.language%>">
+<html class="han-init" lang="<%=config.language%>">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" href="<%=theme.favicon%>">
+  
   <title><%=pageTitle%></title>
 
   <%-partial('partials/cdn-styles')%>
@@ -47,7 +48,7 @@ pageTitle += ' [ ' + config.title + ' ]';
       </div>
     </div>
     <br/>
-    
+
 
 
 <% if (theme.scripts !== undefined && theme.scripts.length > 0) { %>

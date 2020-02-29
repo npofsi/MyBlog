@@ -9,13 +9,13 @@ menu:
   nav: dark
   bg: dark
   slots:
-    - Home
-    - Category
-    - Archives
+    - 主页
+    - 归档
+    - 投喂
   paths:
     - /
-    - /category
     - /archives
+    - /donate
   colors:
     - ED1C24
     - 29ABE2
@@ -55,7 +55,6 @@ biocard:
     links: true
   items:
     PlayDev: http://play.google.com/store/apps/dev?id=5856452462277796135
-    Donate: https://blog.npofsi.pro/donate
   links:
     Github: https://github.com/npofsi
     Twitter: https://twitter.com/npofsi

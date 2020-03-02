@@ -88,6 +88,12 @@ feed:
     - atom.xml
     - rss2.xml
 
+
+
+nofollow:
+  enable: true
+  field: site
+
 # Markdown-it config
 # Docs: https://github.com/hexojs/hexo-renderer-markdown-it/wiki
 markdown:

@@ -5,11 +5,12 @@ node_js:
 install:
   - npm install hexo-cli -g
   - npm install hexo-generator-json-content --g
-  - npm un hexo-renderer-marked 
+  - npm un hexo-renderer-marked
   - npm install git+https://github.com/hexojs/hexo-renderer-markdown-it.git --save
   - npm install markdown-it-abbr markdown-it-checkbox markdown-it-container markdown-it-deflist markdown-it-emoji markdown-it-footnote markdown-it-imsize markdown-it-ins markdown-it-mark markdown-it-regexp markdown-it-sub markdown-it-sup --save
   - npm install hexo-generator-feed --save
   - npm install hexo-auto-category --save
+  - npm install hexo-filter-nofollow --save
  # - cd node_modules/hexo-renderer-markdown-it/
  # - npm install markdown-it-checkbox --save
  # - cd ../../

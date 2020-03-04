@@ -12,14 +12,17 @@ menu:
     - 主页
     - 归档
     - 投喂
+    - shiro.ink
   paths:
     - /
     - /archives
     - /donate
+    - /shiro
   colors:
     - ED1C24
     - 29ABE2
     - FBB03B
+    - FFFFFF
   search:
     btn:
       theme: warning

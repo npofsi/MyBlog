@@ -6,10 +6,12 @@
 <script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-<!-- <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script> -->
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Han/3.3.0/han.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script id="dsq-count-scr" src="https://npofsi.disqus.com/count.js" async></script>
+
 <script>
     $(function(){
         $('.masonry-container').imagesLoaded(function(){
@@ -24,20 +26,7 @@
 
 
 <script>pangu.spacingPage()</script>
-<!-- <script>
-    const gitalk = new Gitalk({
-        clientID: '<%=theme.github.gitment.oauth.client_id%>',
-        clientSecret: '<%=theme.github.gitment.oauth.client_secret%>',
-        repo: '<%=theme.github.gitment.repo%>',
-        owner: '<%=theme.github.gitment.owner%>',
-        admin: ['<%=theme.github.gitment.owner%>'],
-        id: md5(decodeURI(location.pathname)),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-    })
 
-    gitalk.render('comments')
-
-</script> -->
 <script>hljs.initHighlightingOnLoad();</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120300100-1"></script>

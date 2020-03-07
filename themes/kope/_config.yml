@@ -86,14 +86,7 @@ favicon: /favicon.ico
 github:
   username: npofsi
   email: npofsi@outlook.com
-  gitment:
-    enable: false
-    owner: npofsi     #你的 GitHub ID
-    repo: BlogComments       #存储评论的 repo
-    oauth:
-      client_id: 91f845c80e9c695b0f7d           #client ID
-      client_secret: 4f3b7efb72bf090eb67be2da75c572cf5fd44581 #client Secret
-
+  
 friends:
   Canary pwn: https://aaaab3n.co/
   Jimmy Tian: http://www.twznow.com/

@@ -27,7 +27,7 @@ project (<PROJECT_NAME>)
 
 ##### 子目录
 
-用来标记该项目要使用到（存在 CMakeLists.txt）的子目录
+用来标记该项目要使用到（存在 CMakeLists.txt）的子目录，<del>致使 CMakeLists。txt 比 源代码 还多的原罪啊</del>
 
 ```cmake
 add_subdirectory(<PATH>)
